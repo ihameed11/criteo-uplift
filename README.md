@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 # 5. Run the notebook end-to-end (this generates outputs/*.png and
 #    outputs/uplift_results.csv — the dashboard in step 6 depends on this file)
-jupyter notebook notebooks/01_EDA.ipynb
+jupyter notebook notebooks/uplift_analysis.ipynb
 
 # 6. Run the dashboard
 streamlit run app/dashboard.py

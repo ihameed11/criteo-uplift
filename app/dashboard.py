@@ -2,7 +2,7 @@
 #
 # Ranks the held-out test set by predicted uplift (T-learner) and shows the
 # payoff of only targeting the top X% of users, versus targeting at random.
-# Data source: outputs/uplift_results.csv, written by notebooks/01_EDA.ipynb.
+# Data source: outputs/uplift_results.csv, written by notebooks/uplift_analysis.ipynb.
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
