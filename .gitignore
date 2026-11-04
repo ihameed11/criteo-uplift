@@ -3,3 +3,6 @@ data/
 __pycache__/
 .ipynb_checkpoints/
 .DS_Store
+.claude/
+*Domain Application_Project*
+report/
